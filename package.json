@@ -2,11 +2,11 @@
   "name": "moot-uuid-generator",
   "displayName": "UUIDs Generator (v4 & v7)",
   "description": "generate uuids and copy them in the clipboard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "github:mchataigner/vscode-uuid-generator",
   "publisher": "moot",
   "engines": {
-    "vscode": "^1.106.1"
+    "vscode": "^1.99.0"
   },
   "categories": [
     "Other"
@@ -43,7 +43,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.106.1",
+    "@types/vscode": "^1.99.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
     "@types/uuid": "^10.0.0",
