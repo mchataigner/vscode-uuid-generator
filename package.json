@@ -4,6 +4,7 @@
   "description": "generate uuids and copy them in the clipboard",
   "version": "0.0.1",
   "repository": "github:mchataigner/vscode-uuid-generator",
+  "publisher": "moot",
   "engines": {
     "vscode": "^1.106.1"
   },
