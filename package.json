@@ -14,10 +14,17 @@
   "contributes": {
     "commands": [
       {
-        "command": "uuid-generator.helloWorld",
-        "title": "Hello World"
+        "command": "uuid-generator.generateV4",
+        "title": "Generate UUID v4"
+      },
+      {
+        "command": "uuid-generator.generateV7",
+        "title": "Generate UUID v7"
       }
     ]
+  },
+  "dependencies": {
+    "uuid": "^11.0.3"
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
@@ -37,6 +44,7 @@
     "@types/vscode": "^1.106.1",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
+    "@types/uuid": "^10.0.0",
     "typescript-eslint": "^8.46.3",
     "eslint": "^9.39.1",
     "esbuild": "^0.27.0",
