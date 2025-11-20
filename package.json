@@ -1,6 +1,6 @@
 {
-  "name": "uuid-generator",
-  "displayName": "uuid-generator",
+  "name": "moot-uuid-generator",
+  "displayName": "UUIDs Generator (v4 & v7)",
   "description": "generate uuids and copy them in the clipboard",
   "version": "0.0.1",
   "repository": "github:mchataigner/vscode-uuid-generator",
